@@ -1,0 +1,377 @@
+.h-fill {
+	width: 100%;
+}
+
+.v-fill {
+	height: 100%;
+}
+
+.fill {
+	width: 100%;
+	height: 100%;
+}
+
+.flex-h {
+	display: flex;
+	flex-direction: row;
+}
+
+.h-box {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.flex-v {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-extend {
+	flex: 1;
+}
+
+.v-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-align-center {
+	align-items: center;
+}
+
+.flex-self-align-end {
+  align-self: flex-end;
+}
+
+.flex-self-align-center {
+  align-self: center;
+}
+
+.flex-align-end {
+	align-items: flex-end;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-end {
+	justify-content: flex-end;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-around {
+	justify-content: space-around;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.bot-fixed {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.top-fixed {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+.pos-real {
+	position: relative;
+}
+.pos-abs {
+	position: absolute;
+}
+
+.pos-abs-fill {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.pos-abs-lt {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.pos-abs-rt {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.pos-abs-lb {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.pos-abs-rb {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.pos-abs-b {
+	position: absolute;
+	bottom: 0;
+}
+
+.pos-fixed {
+	position: fixed;
+}
+
+.full-screen {
+	width: 100vw;
+	height: 100vh;
+}
+
+.pad-xs {
+  padding: 4px;
+}
+
+.pad-sm {
+	padding: 10px;
+}
+
+.pad-md {
+  padding: 20px;
+}
+
+.pad-lg {
+  padding: 30px;
+}
+
+.pad-xl {
+  padding: 40px;
+}
+
+.pad-xxl {
+	padding: 50px;
+}
+
+.mg-xs {
+  padding: 4px;
+}
+
+.mg-sm {
+	margin: 10px;
+}
+
+.mg-md {
+  margin: 20px;
+}
+
+.mg-lg {
+  margin: 30px;
+}
+
+.mg-xl {
+  margin: 40px;
+}
+
+.mg-xxl {
+	margin: 50px;
+}
+
+.pad-l-xs {
+	padding-left: 4px;
+}
+.pad-r-xs {
+	padding-right: 4px;
+}
+.pad-t-xs {
+	padding-top: 4px;
+}
+.pad-b-xs {
+	padding-bottom: 4px;
+}
+
+.pad-l-sm {
+	padding-left: 10px;
+}
+.pad-r-sm {
+	padding-right: 10px;
+}
+.pad-t-sm {
+	padding-top: 10px;
+}
+.pad-b-sm {
+	padding-bottom: 10px;
+}
+
+.pad-l-md {
+	padding-left: 20px;
+}
+.pad-r-md {
+	padding-right: 20px;
+}
+.pad-t-md {
+	padding-top: 20px;
+}
+.pad-b-md {
+	padding-bottom: 20px;
+}
+
+.pad-l-lg {
+	padding-left: 30px;
+}
+.pad-r-lg {
+	padding-right: 30px;
+}
+.pad-t-lg {
+	padding-top: 30px;
+}
+.pad-b-lg {
+	padding-bottom: 30px;
+}
+
+.pad-l-xl {
+	padding-left: 40px;
+}
+.pad-r-xl {
+	padding-right: 40px;
+}
+.pad-t-xl {
+	padding-top: 40px;
+}
+.pad-b-xl {
+	padding-bottom: 40px;
+}
+
+.pad-l-xxl {
+	padding-left: 50px;
+}
+.pad-r-xxl {
+	padding-right: 50px;
+}
+.pad-t-xxl {
+	padding-top: 50px;
+}
+.pad-b-xxl {
+	padding-bottom: 50px;
+}
+
+.mg-l-xs {
+	margin-left: 4px;
+}
+.mg-r-xs {
+	margin-right: 4px;
+}
+.mg-t-xs {
+	margin-top: 4px;
+}
+.mg-b-xs {
+	margin-bottom: 4px;
+}
+
+.mg-l-sm {
+	margin-left: 10px;
+}
+.mg-r-sm {
+	margin-right: 10px;
+}
+.mg-t-sm {
+	margin-top: 10px;
+}
+.mg-b-sm {
+	margin-bottom: 10px;
+}
+
+.mg-l-md {
+	margin-left: 20px;
+}
+.mg-r-md {
+	margin-right: 20px;
+}
+.mg-t-md {
+	margin-top: 20px;
+}
+.mg-b-md {
+	margin-bottom: 20px;
+}
+
+.mg-l-lg {
+	margin-left: 30px;
+}
+.mg-r-lg {
+	margin-right: 30px;
+}
+.mg-t-lg {
+	margin-top: 30px;
+}
+.mg-b-lg {
+	padding-bottom: 30px;
+}
+
+.mg-l-xl {
+	margin-left: 40px;
+}
+.mg-r-xl {
+	margin-right: 40px;
+}
+.mg-t-xl {
+	margin-top: 40px;
+}
+.mg-b-xl {
+	margin-bottom: 40px;
+}
+
+.mg-l-xxl {
+	margin-left: 50px;
+}
+.mg-r-xxl {
+	margin-right: 50px;
+}
+.mg-t-xxl {
+	margin-top: 50px;
+}
+.mg-b-xxl {
+	margin-bottom: 50px;
+}
+
+.text-ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.bg-white {
+	background-color: #FFFFFF;
+}
+
+.text-white {
+	color: #FFFFFF;
+}
+
+.text-gray {
+	color: #999999;
+}
+
+.text-blue {
+	color: #0089FF;
+}
+
+.text-xs {
+	font-size: 14rpx;
+}
+
+.text-sm {
+	font-size: 28rpx;
+}
+
+.round-corner {
+	border-radius: 20rpx;
+}

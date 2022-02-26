@@ -1,0 +1,30 @@
+{
+    "id": "lc-walletconnect",
+    "scripts": {
+        "test": "eslint . --fix"
+    },
+    "dependencies": {
+        "@walletconnect/client": "^1.7.0",
+        "@walletconnect/qrcode-modal": "^1.7.0",
+        "bignumber.js": "^9.0.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.2.0",
+        "eslint-config-airbnb": "^19.0.0"
+    },
+    "name": "walletConnect metamak 钱包连接",
+    "version": "1.0",
+    "description": "是用 walletConnect 或者 metaMask 连接钱包，进行签名，交易，",
+    "keywords": [
+        "区块链",
+        "web3.js",
+        "walletconnect",
+        "metamsk"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "前端页面模板"
+        ]
+    }
+}
