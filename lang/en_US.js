@@ -83,8 +83,8 @@ export default {
 			VRNativeEngine: 'VR Native Engine',
 			
 			// earlyProduct: 'Early Product',
-			earlyProduct: ' Richverse 1.0 product —Genesis ',
-			futureDevelopment: 'Future Development'
+			earlyProduct: '  Product 1 — Genesis  ',
+			futureDevelopment: ' Product 2 — Find me '
 		},
 		economic: {
 			title_1: 'Economic',
