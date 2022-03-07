@@ -43,7 +43,7 @@
 		<view id="page1" class="page page1 pos-real">
 			<!-- <video src="/static/testdv.mp4" :autoplay="true" :muted="true" :controls="false" :loop="true" object-fit="cover"></video>
 			 --> 
-			<video id="myVideo" src="https://d2n9tyap8kl1by.cloudfront.net/ad.mp4" objectFit="fill" :autoplay="true" :loop="true"></video>
+			<video id="myVideo" src="https://d2n9tyap8kl1by.cloudfront.net/ad.mp4" objectFit="fill" autoplay="true" muted="true" loop="true"></video>
 			<!-- <view class="flex-v justify-center content">
 				<image class="img-title" :src="$t('image.title')" mode="widthFix"></image>
 				<text class="text-subtitle">
@@ -1442,7 +1442,7 @@
  		<view id="page1" class="page page1 pos-real">
  			<!-- <video src="/static/testdv.mp4" :autoplay="true" :muted="true" :controls="false" :loop="true" object-fit="cover"></video>
  			 -->
- 			<video id="myVideo" src="https://d2n9tyap8kl1by.cloudfront.net/ad.mp4" objectFit="fill" :autoplay="true" :loop="true"></video>
+ 			<video id="myVideo" src="https://d2n9tyap8kl1by.cloudfront.net/ad.mp4" objectFit="fill" autoplay="true" muted="true" loop="true"></video>
  			<!-- <view class="flex-v justify-center content">
  				<image class="img-title" :src="$t('image.title')" mode="widthFix"></image>
  				<text class="text-subtitle">
