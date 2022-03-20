@@ -66,6 +66,8 @@ export default {
 		info: '정보:',
 		auditReport: '감사보고서',
 		whitePaper: '백서',
+		tokenEconomic: 'Token Economic',
+		genesis: '《Genesis》\n Novice manual',
 		gameBackground: '게임 배경'
 	},
 	image: {

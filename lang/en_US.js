@@ -64,6 +64,8 @@ export default {
 		info: 'INFO：',
 		auditReport: 'Audit Report',
 		whitePaper: 'White Paper',
+		tokenEconomic: 'Token Economic',
+		genesis: '《Genesis》\n Novice manual',
 		gameBackground: 'Game Background'
 	},
 	image: {
