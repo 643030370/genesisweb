@@ -368,7 +368,7 @@
  					image: '/static/avatars/Alice@3x.png',
  					title: 'Alice',
  					desc: this.$t('member.Alice'),
- 					// homePage: 'https://www.linkedin.com/in/yujie-hong-8392a6a3/',
+ 					homePage: 'https://www.linkedin.com/in/yujie-hong-8392a6a3/',
  					post: 'CPO'
  				},
  				// {
