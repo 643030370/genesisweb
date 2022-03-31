@@ -53,26 +53,27 @@
 							show: false
 						},
 						radius: ['50%', '100%'],
-						"data": [{
-								"name": "Seed Round",
+						"data": [
+							{
+								"name": "Private",
 								"value": 5,
 								itemStyle: {
 									color: "#2a2a2a",
 									borderColor: "#19FCAC"
 								}
 							},
+							// {
+							// 	"name": "Staking",
+							// 	"value": 20,
+							// 	color: "#2a2a2a",
+							// 	itemStyle: {
+							// 		color: "#2a2a2a",
+							// 		borderColor: "#19FCAC"
+							// 	}
+							// },
 							{
-								"name": "Private",
-								"value": 10,
-								itemStyle: {
-									color: "#2a2a2a",
-									borderColor: "#19FCAC"
-								}
-							},
-							{
-								"name": "Staking",
-								"value": 20,
-								color: "#2a2a2a",
+								"name": "Core Team",
+								"value": 15,
 								itemStyle: {
 									color: "#2a2a2a",
 									borderColor: "#19FCAC"
@@ -88,15 +89,23 @@
 							},
 							{
 								"name": "Development",
-								"value": 5,
+								"value": 4,
 								itemStyle: {
 									color: "#2a2a2a",
 									borderColor: "#19FCAC"
 								}
 							},
+							// {
+							// 	"name": "Treasury",
+							// 	"value": 15,
+							// 	itemStyle: {
+							// 		color: "#2a2a2a",
+							// 		borderColor: "#19FCAC"
+							// 	}
+							// },
 							{
-								"name": "Treasury",
-								"value": 15,
+								"name": "Reserve",
+								"value": 4,
 								itemStyle: {
 									color: "#2a2a2a",
 									borderColor: "#19FCAC"
@@ -109,31 +118,28 @@
 									color: "#2a2a2a",
 									borderColor: "#19FCAC"
 								}
-							},
-							{
+							},{
+								"name": "LiquidityPool",
+								"value": 1,
+								itemStyle: {
+									color: "#2a2a2a",
+									borderColor: "#19FCAC"
+								}
+							},{
 								"name": "Play To Earn",
-								"value": 25,
+								"value": 60,
+								itemStyle: {
+									color: "#2a2a2a",
+									borderColor: "#19FCAC"
+								}
+							},{
+								"name": "Seed Round",
+								"value": 5,
 								itemStyle: {
 									color: "#2a2a2a",
 									borderColor: "#19FCAC"
 								}
 							},
-							{
-								"name": "Advisors",
-								"value": 4,
-								itemStyle: {
-									color: "#2a2a2a",
-									borderColor: "#19FCAC"
-								}
-							},
-							{
-								"name": "Core Team",
-								"value": 15,
-								itemStyle: {
-									color: "#2a2a2a",
-									borderColor: "#19FCAC"
-								}
-							}
 						]
 					}],
 				},
@@ -143,93 +149,100 @@
 		computed: {
 			labels() {
 				return [{
-						label: this.$t('page.tokenAllocation.SeedRound'),
-						value: '5%',
-						align: 'right',
-						srcWidth: this.$bigScreen ? uni.upx2px(140) : uni.upx2px(206),
-						targetWidth: this.$bigScreen ? uni.upx2px(220) : uni.upx2px(409),
-						x: this.$bigScreen ? uni.upx2px(120) : uni.upx2px(250),
-						y: this.$bigScreen ? uni.upx2px(0) : uni.upx2px(0)
-					}, {
 						label: this.$t('page.tokenAllocation.Private'),
 						value: '5%',
 						align: 'right',
-						srcWidth: this.$bigScreen ? uni.upx2px(195.31) : uni.upx2px(200),
-						targetWidth: this.$bigScreen ? uni.upx2px(260.16) : uni.upx2px(350),
-						x: this.$bigScreen ? uni.upx2px(175.78) : uni.upx2px(360),
-						y: this.$bigScreen ? uni.upx2px(20) : uni.upx2px(35)
+						srcWidth: this.$bigScreen ? uni.upx2px(160) : uni.upx2px(260),
+						targetWidth: this.$bigScreen ? uni.upx2px(200) : uni.upx2px(300),
+						x: this.$bigScreen ? uni.upx2px(140) : uni.upx2px(260),
+						y: this.$bigScreen ? uni.upx2px(3) : uni.upx2px(20)
 					},
+					// {
+					// 	label: this.$t('page.tokenAllocation.Staking'),
+					// 	value: '20%',
+					// 	align: 'right',
+					// 	srcWidth: this.$bigScreen ? uni.upx2px(191) : uni.upx2px(220),
+					// 	targetWidth: this.$bigScreen ? uni.upx2px(260.16) : uni.upx2px(350),
+					// 	x: this.$bigScreen ? uni.upx2px(180) : uni.upx2px(380),
+					// 	y: this.$bigScreen ? uni.upx2px(90) : uni.upx2px(205)
+					// },
 					{
-						label: this.$t('page.tokenAllocation.Staking'),
-						value: '20%',
+						label: this.$t('page.tokenAllocation.CoreTeam'),
+						value: '15%',
 						align: 'right',
-						srcWidth: this.$bigScreen ? uni.upx2px(191) : uni.upx2px(220),
-						targetWidth: this.$bigScreen ? uni.upx2px(260.16) : uni.upx2px(350),
-						x: this.$bigScreen ? uni.upx2px(180) : uni.upx2px(380),
-						y: this.$bigScreen ? uni.upx2px(90) : uni.upx2px(205)
+						srcWidth: this.$bigScreen ? uni.upx2px(160) : uni.upx2px(260),
+						targetWidth: this.$bigScreen ? uni.upx2px(200) : uni.upx2px(300),
+						x: this.$bigScreen ? uni.upx2px(200) : uni.upx2px(375),
+						y: this.$bigScreen ? uni.upx2px(40) : uni.upx2px(110)
 					},
 					{
 						label: this.$t('page.tokenAllocation.PublicSale'),
 						value: '2%',
 						align: 'right',
-						srcWidth: this.$bigScreen ? uni.upx2px(195.31) : uni.upx2px(170),
-						targetWidth: this.$bigScreen ? uni.upx2px(260.16) : uni.upx2px(351),
-						x: this.$bigScreen ? uni.upx2px(175.78) : uni.upx2px(430),
-						y: this.$bigScreen ? uni.upx2px(155) : uni.upx2px(325)
+						srcWidth: this.$bigScreen ? uni.upx2px(180) : uni.upx2px(280),
+						targetWidth: this.$bigScreen ? uni.upx2px(220) : uni.upx2px(320),
+						x: this.$bigScreen ? uni.upx2px(225) : uni.upx2px(425),
+						y: this.$bigScreen ? uni.upx2px(85) : uni.upx2px(185)
 					},
-					{
-						label: this.$t('page.tokenAllocation.Development'),
-						value: '5%',
-						align: 'right',
-						srcWidth: this.$bigScreen ? uni.upx2px(195.31) : uni.upx2px(205),
-						targetWidth: this.$bigScreen ? uni.upx2px(260.16) : uni.upx2px(340),
-						x: this.$bigScreen ? uni.upx2px(175.78) : uni.upx2px(400),
-						y: this.$bigScreen ? uni.upx2px(190) : uni.upx2px(385)
-					},
-					{
-						label: this.$t('page.tokenAllocation.Treasury'),
-						value: '15%',
-						align: 'right',
-						srcWidth: this.$bigScreen ? uni.upx2px(241) : uni.upx2px(320),
-						targetWidth: this.$bigScreen ? uni.upx2px(300) : uni.upx2px(450),
-						x: this.$bigScreen ? uni.upx2px(130) : uni.upx2px(282),
-						y: this.$bigScreen ? uni.upx2px(228) : uni.upx2px(440)
-					},
+					// {
+					// 	label: this.$t('page.tokenAllocation.Treasury'),
+					// 	value: '15%',
+					// 	align: 'right',
+					// 	srcWidth: this.$bigScreen ? uni.upx2px(241) : uni.upx2px(320),
+					// 	targetWidth: this.$bigScreen ? uni.upx2px(300) : uni.upx2px(450),
+					// 	x: this.$bigScreen ? uni.upx2px(130) : uni.upx2px(282),
+					// 	y: this.$bigScreen ? uni.upx2px(228) : uni.upx2px(440)
+					// },
 					{
 						label: this.$t('page.tokenAllocation.Marketing'),
 						value: '4%',
-						align: this.$bigScreen ? 'left' : 'right',
-						srcWidth: this.$bigScreen ? uni.upx2px(260) : uni.upx2px(149),
-						targetWidth: this.$bigScreen ? uni.upx2px(280) : uni.upx2px(274),
-						x: this.$bigScreen ? uni.upx2px(-130) : uni.upx2px(182),
-						y: this.$bigScreen ? uni.upx2px(225) : uni.upx2px(470)
+						align: 'right',
+						srcWidth: this.$bigScreen ? uni.upx2px(180) : uni.upx2px(280),
+						targetWidth: this.$bigScreen ? uni.upx2px(220) : uni.upx2px(320),
+						x: this.$bigScreen ? uni.upx2px(230) : uni.upx2px(430),
+						y: this.$bigScreen ? uni.upx2px(110) : uni.upx2px(230)
 					},
 					{
-						label: this.$t('page.tokenAllocation.PlayToEarn'),
-						value: '25%',
-						align: this.$bigScreen ? 'left' : 'right',
-						srcWidth: this.$bigScreen ? uni.upx2px(195.31) : uni.upx2px(540),
-						targetWidth: this.$bigScreen ? uni.upx2px(260.16) : uni.upx2px(650),
-						x: this.$bigScreen ? uni.upx2px(-130) : uni.upx2px(60),
-						y: this.$bigScreen ? uni.upx2px(150) : uni.upx2px(265),
-					},
-					{
-						label: this.$t('page.tokenAllocation.Advisors'),
+						label: this.$t('page.tokenAllocation.Development'),
 						value: '4%',
-						align: this.$bigScreen ? 'left' : 'right',
-						srcWidth: this.$bigScreen ? uni.upx2px(195.31) : uni.upx2px(508),
-						targetWidth: this.$bigScreen ? uni.upx2px(260.16) : uni.upx2px(620),
-						x: this.$bigScreen ? uni.upx2px(-130) : uni.upx2px(90),
-						y: this.$bigScreen ? uni.upx2px(65) : uni.upx2px(145)
+						align: 'right',
+						srcWidth: this.$bigScreen ? uni.upx2px(180) : uni.upx2px(240),
+						targetWidth: this.$bigScreen ? uni.upx2px(220) : uni.upx2px(280),
+						x: this.$bigScreen ? uni.upx2px(225) : uni.upx2px(425),
+						y: this.$bigScreen ? uni.upx2px(140) : uni.upx2px(280),
 					},
 					{
-						label: this.$t('page.tokenAllocation.CoreTeam'),
-						value: '15%',
+						label: this.$t('page.tokenAllocation.Reserve'),
+						value: '4%',
+						align: 'right',
+						srcWidth: this.$bigScreen ? uni.upx2px(140) : uni.upx2px(240),
+						targetWidth: this.$bigScreen ? uni.upx2px(180) : uni.upx2px(280),
+						x: this.$bigScreen ? uni.upx2px(210) : uni.upx2px(410),
+						y: this.$bigScreen ? uni.upx2px(162) : uni.upx2px(325)
+					}, {
+						label: this.$t('page.tokenAllocation.LiquidityPool'),
+						value: '1%',
+						align: 'right',
+						srcWidth: this.$bigScreen ? uni.upx2px(80) : uni.upx2px(200),
+						targetWidth: this.$bigScreen ? uni.upx2px(120) : uni.upx2px(240),
+						x: this.$bigScreen ? uni.upx2px(210) : uni.upx2px(420),
+						y: this.$bigScreen ? uni.upx2px(180) : uni.upx2px(365)
+					}, {
+						label: this.$t('page.tokenAllocation.PlayToEarn'),
+						value: '60%',
 						align: this.$bigScreen ? 'left' : 'right',
-						srcWidth: this.$bigScreen ? uni.upx2px(195.31) : uni.upx2px(450),
-						targetWidth: this.$bigScreen ? uni.upx2px(260.16) : uni.upx2px(580),
-						x: this.$bigScreen ? uni.upx2px(-130) : uni.upx2px(132),
-						y: this.$bigScreen ? uni.upx2px(30) : uni.upx2px(95)
+						srcWidth: this.$bigScreen ? uni.upx2px(180) : uni.upx2px(280),
+						targetWidth: this.$bigScreen ? uni.upx2px(220) : uni.upx2px(320),
+						x: this.$bigScreen ? uni.upx2px(-150) : uni.upx2px(300),
+						y: this.$bigScreen ? uni.upx2px(130) : uni.upx2px(430)
+					},{
+						label: this.$t('page.tokenAllocation.SeedRound'),
+						value: '5%',
+						align: this.$bigScreen ? 'left' : 'right',
+						srcWidth: this.$bigScreen ? uni.upx2px(180) : uni.upx2px(360),
+						targetWidth: this.$bigScreen ? uni.upx2px(220) : uni.upx2px(400),
+						x: this.$bigScreen ? uni.upx2px(-65) : uni.upx2px(210),
+						y: this.$bigScreen ? uni.upx2px(3) : uni.upx2px(60)
 					},
 				]
 			}
@@ -295,6 +308,7 @@
 		position: relative;
 		width: 231.25rpx;
 		height: 231.25rpx;
+		top: 30px;
 
 		.nice-pie-item {
 			position: absolute;

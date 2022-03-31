@@ -133,7 +133,9 @@ export default {
 			PlayToEarn: '边玩边赚',
 			Staking: '立标',
 			Treasury: '财政',
-			CoreTeam: '核心团队'
+			CoreTeam: '核心团队',
+			Reserve: '储备',
+			LiquidityPool: '流动资金池',
 		},
 		topBanner: {
 			topBannerDesc: '从垄断模拟游戏开始，进行Metaverse+虚拟社交网络的NFT聚合交易',

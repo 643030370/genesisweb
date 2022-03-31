@@ -132,7 +132,9 @@ export default {
 			PlayToEarn: '遊びをかせぐ稼ぐ',
 			Staking: 'りっ',
 			Treasury: 'ざいせー',
-			CoreTeam: 'コアチーム'
+			CoreTeam: 'コアチーム',
+			Reserve: '予約',
+			LiquidityPool: '流動性プール',
 		},
 		topBanner: {
 			topBannerDesc: '独占シミュレーションゲームから始めて、メタバース+仮想ソーシャルネットワークのNFT集約トランザクションを作成します',

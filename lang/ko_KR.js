@@ -133,7 +133,9 @@ export default {
 			PlayToEarn: '놀면서 벌다',
 			Staking: '세우다.',
 			Treasury: '재정',
-			CoreTeam: '핵심 팀'
+			CoreTeam: '핵심 팀',
+			Reserve: '예약하다',
+			LiquidityPool: '유동성 풀',
 		},
 		topBanner: {
 			topBannerDesc: 'Monopoly 시뮬레이션 게임을 시작으로 Metaverse + 가상 소셜 네트워크의 NFT 집계 트랜잭션 만들기',

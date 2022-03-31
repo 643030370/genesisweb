@@ -304,7 +304,7 @@
  				}, {
  					icon: '/static/links/icon-tongxun2@2x.png',
  					label: this.$t('label.telegram'),
- 					href: 'https://t.me/Richversegenesis',
+ 					href: 'https://t.me/RichverseWeb3',
  					bgColor: '#3C3C3C'
  				}, {
  					icon: '/static/links/icon-tongxun5@2x.png',
