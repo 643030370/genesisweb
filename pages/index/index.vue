@@ -177,8 +177,8 @@
  				<text @click="tokenEconomic" class="link label">{{$t('label.tokenEconomic')}}</text>
  				<text @click="genesis" class="link label">{{$t('label.genesis')}}</text>
  				<text @click="backGround" class="link label">{{$t('label.gameBackground')}}</text>
- 				<text class="link label">{{$t('label.auditReport')}}</text>
- 				<view @click="navTo('https://github.com')" class="h-box link link-github">
+ 				<text @click="auditReport" class="link label">{{$t('label.auditReport')}}</text>
+ 				<view @click="navTo('https://github.com/richverse/')" class="h-box link link-github">
  					<image src="/static/links/github@2x.png"></image>
  					<text>Github</text>
  				</view>
@@ -466,6 +466,11 @@
  					url: "/pages/common/pdfViewer/pdfViewer?url=https://d2n9tyap8kl1by.cloudfront.net/The+GENESIS+Worldview.pdf"
  				})
  			},
+			// auditReport(){
+			// 	uni.navigateTo({
+			// 		url: "/pages/common/pdfViewer/pdfViewer?url=https://d2n9tyap8kl1by.cloudfront.net/PRE-Richverse-Web3.0__preliminary-20220331T034744Z.pdf"
+			// 	})
+			// },
  			navTo(href) {
  				if (href) {
  					window.open(href)
