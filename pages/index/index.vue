@@ -466,11 +466,11 @@
  					url: "/pages/common/pdfViewer/pdfViewer?url=https://d2n9tyap8kl1by.cloudfront.net/The+GENESIS+Worldview.pdf"
  				})
  			},
-			// auditReport(){
-			// 	uni.navigateTo({
-			// 		url: "/pages/common/pdfViewer/pdfViewer?url=https://d2n9tyap8kl1by.cloudfront.net/PRE-Richverse-Web3.0__preliminary-20220331T034744Z.pdf"
-			// 	})
-			// },
+			auditReport(){
+				uni.navigateTo({
+					url: "/pages/common/pdfViewer/pdfViewer?url=https://d2n9tyap8kl1by.cloudfront.net/REP-Richverse-Web3.0__final-20220411T070711Z.pdf"
+				})
+			},
  			navTo(href) {
  				if (href) {
  					window.open(href)
