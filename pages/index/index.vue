@@ -237,7 +237,7 @@
  				},{
  					logo: '/static/CooperationLOGO7@3x.png'
  				},{
- 					logo: '/static/CooperationLOGO8@3x.png'
+ 					logo: '/static/CooperationLOGO14@3x.png'
  				},{
  					logo: '/static/Cooperation LOGO12@3x.png'
  				}],
