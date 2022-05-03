@@ -11,6 +11,7 @@ export default {
 		tokenAllocation: '토큰 분배',
 		roadMap: '노선도',
 		developers: '팀 소개',
+		nftTradingMarket: 'NFT 거래 시장',
 		lang: '英文/中文'
 	},
 	locale: {

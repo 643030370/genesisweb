@@ -9,6 +9,9 @@
  						<view class="tab-box flex-extend h-box">
  							<nice-tabs @change="handleTabChange" :list="tabs"></nice-tabs>
  						</view>
+						<view class="btn-market">
+							<a href="https://mysterybox.richverse.io/"><text>{{$t('menu.nftTradingMarket')}}</text></a>
+						</view>	
  						<view class="btn-wallet" @tap="tapPopup">
  							<image src="/static/icon-wallet@2x.png"></image>
  							<text>{{addr}}</text>
@@ -1075,6 +1078,29 @@
  				height: 10.15rpx;
  				margin-right: 3.9rpx;
  			}
+ 			text {
+				font-family: OPPOSans-R;
+ 				font-size: 8.59rpx;
+ 				color: #FFEF9C;
+ 				letter-spacing: 0;
+ 				text-align: center;
+ 				line-height: 8.59rpx;
+ 				font-weight: 400;
+ 			}
+ 		}
+		.btn-market {
+ 			display: flex;
+ 			align-items: center;
+ 			justify-content: center;
+ 			margin-right: 18.75rpx;
+ 			width: 118.59rpx;
+ 			height: 19.53rpx;
+			color: white;
+ 			// border: 1px solid rgba($color: #19FCAC, $alpha: 0.4);
+ 			// border-radius: 1.17rpx;
+			a {
+				text-decoration: none;
+				}
  			text {
  				font-family: OPPOSans-R;
  				font-size: 8.59rpx;

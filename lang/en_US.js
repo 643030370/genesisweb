@@ -11,6 +11,7 @@ export default {
 		tokenAllocation: 'Token Allocation',
 		roadMap: 'Road Map',
 		developers: 'Developers',
+		nftTradingMarket: 'NFT Trading Market',
 		lang: 'EN/CN'
 	},
 	locale: {

@@ -11,6 +11,7 @@ export default {
 		tokenAllocation: 'トークンの割り当て',
 		roadMap: 'ルートマップ',
 		developers: 'チーム',
+		nftTradingMarket: 'NFTトレーディングマーケット',
 		lang: '英文/中文'
 	},
 	locale: {
