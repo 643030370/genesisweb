@@ -163,7 +163,7 @@
  			</view>
  			<view class="partner-wrapper">
  				<view class="h-box flex-wrap justify-center">
- 					<image class="partner-logo" v-for="(item, idx) in partners.slice(0, 10)" :key="idx" :src="item.logo"></image>
+ 					<image class="partner-logo" v-for="(item, idx) in partners.slice(0, 11)" :key="idx" :src="item.logo"></image>
  				</view>
  			<!-- 	<view class="h-box flex-wrap justify-center">
  					<image class="partner-logo" v-for="(item, idx) in partners.slice(4, 7)" :key="idx" :src="item.logo"></image>
@@ -243,6 +243,8 @@
  					logo: '/static/CooperationLOGO14@3x.png'
  				},{
  					logo: '/static/Cooperation LOGO12@3x.png'
+ 				},{
+ 					logo: '/static/CooperationLOGO15@3x.png'
  				}],
  				
  				winWidth: 0,
