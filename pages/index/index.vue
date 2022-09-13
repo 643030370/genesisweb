@@ -228,8 +228,6 @@
  				},{
  				    logo: '/static/CooperationLOGO13@3x.png'
  				},{
- 					logo: '/static/CooperationLOGO0@3x.png'
- 				},{
  					logo: '/static/CooperationLOGO6@3x.png'
  				},{
  				    logo: '/static/CooperationLOGO1@3x.png'
@@ -249,6 +247,8 @@
  					logo: '/static/CooperationLOGO16@3x.png'
  				},{
  					logo: '/static/CooperationLOGO17@3x.png'
+ 				},{
+ 					logo: '/static/CooperationLOGO18@3x.png'
  				}],
  				
  				winWidth: 0,
