@@ -1128,7 +1128,7 @@
  		.page7 {
  			background: url(/static/BJ-StrategicCooperation.png) 0 0 no-repeat;
  			background-size: 100% 100%;
- 			height: 277.73rpx !important;
+ 			min-height: 300rpx !important;
  			margin-top: -49.21rpx;
  			padding-top: 49.21rpx;
  			.img-diamond {
@@ -1137,6 +1137,7 @@
  			}
  			.partner-wrapper {
  				margin-top: 31.25rpx;
+ 				padding-bottom: 31.25rpx;
  			}
  			.title-cooperation {
  				font-family: HarmonyOS_Sans_Black;
