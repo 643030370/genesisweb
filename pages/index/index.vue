@@ -383,13 +383,14 @@
  					desc: this.$t('member.ChristineHaynes'),
  					// homePage: 'https://www.linkedin.com/in/christine-haynes-7109b046/',
  					post: 'CMO'
- 				}, {
- 					image: '/static/avatars/Alice@3x.png',
- 					title: 'Alice',
- 					desc: this.$t('member.Alice'),
- 					homePage: 'https://www.linkedin.com/in/yujie-hong-8392a6a3/',
- 					post: 'CPO'
- 				},
+ 				}, 
+				// {
+ 			// 		image: '/static/avatars/Alice@3x.png',
+ 			// 		title: 'Alice',
+ 			// 		desc: this.$t('member.Alice'),
+ 			// 		homePage: 'https://www.linkedin.com/in/yujie-hong-8392a6a3/',
+ 			// 		post: 'CPO'
+ 			// 	},
  				// {
  				// 	image: '/static/avatars/alice.png',
  				// 	title: 'Alice',
