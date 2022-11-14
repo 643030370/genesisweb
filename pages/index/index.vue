@@ -163,7 +163,7 @@
  			</view>
  			<view class="partner-wrapper">
  				<view class="h-box flex-wrap justify-center">
- 					<image class="partner-logo" v-for="(item, idx) in partners.slice(0, 13)" :key="idx" :src="item.logo"></image>
+ 					<image class="partner-logo" v-for="(item, idx) in partners.slice(0, 12)" :key="idx" :src="item.logo"></image>
  				</view>
  			<!-- 	<view class="h-box flex-wrap justify-center">
  					<image class="partner-logo" v-for="(item, idx) in partners.slice(4, 7)" :key="idx" :src="item.logo"></image>
@@ -223,13 +223,17 @@
  				tabIdx: 0,
  				economicModelIdx: 0,
  				
- 				partners: [{
- 					logo: '/static/Cooperation LOGO11@3x.png'
- 				},{
+ 				partners: [
+				// {
+ 			// 		logo: '/static/Cooperation LOGO11@3x.png'
+ 			// 	},
+				{
  				    logo: '/static/CooperationLOGO13@3x.png'
- 				},{
- 					logo: '/static/CooperationLOGO6@3x.png'
- 				},{
+ 				},
+				// {
+ 			// 		logo: '/static/CooperationLOGO6@3x.png'
+ 			// 	},
+				{
  				    logo: '/static/CooperationLOGO1@3x.png'
  				},{
  					logo: '/static/CooperationLOGO2@3x.png'
@@ -237,9 +241,11 @@
  					logo: '/static/CooperationLOGO5@3x.png'
  				},{
  					logo: '/static/CooperationLOGO7@3x.png'
- 				},{
- 					logo: '/static/CooperationLOGO14@3x.png'
- 				},{
+ 				},
+				// {
+ 			// 		logo: '/static/CooperationLOGO14@3x.png'
+ 			// 	},
+				{
  					logo: '/static/Cooperation LOGO12@3x.png'
  				},{
  					logo: '/static/CooperationLOGO15@3x.png'
@@ -249,6 +255,10 @@
  					logo: '/static/CooperationLOGO17@3x.png'
  				},{
  					logo: '/static/CooperationLOGO18@3x.png'
+ 				},{
+ 					logo: '/static/CooperationLOGO9@3x.png'
+ 				},{
+ 					logo: '/static/CooperationLOGO19@3x.png'
  				}],
  				
  				winWidth: 0,
